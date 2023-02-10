@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 50%;
+  background-color: rgb(0, 196, 0);
+  box-shadow: 20px 20px 20px gray;
+  padding: 30px 50px;
+  margin: 0 auto;
+  margin-top: 200px;
+  border-radius: 20px;
+}
+
+h1 {
+  margin-bottom: 25px;
+  color: rgb(0, 57, 0);
+}
+
+input {
+  width: 70%;
+  margin: 20px auto;
+  padding: 10px 40px;
+  display: block;
+  border-radius: 25px;
+  border: 0;
+}
+
+button {
+  background-color: green;
+  width: 70%;
+  margin: 15px auto;
+  display: block;
+  border-radius: 25px;
+  border: 0;
+}
+
+h4 {
+  margin: 10px auto;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+
+button:active{
+    width: 68%;
+    margin-bottom: 18px;
+}
+button:active>h4{
+    font-size: 18px;
+}
+
+#result{
+    font-size: 25px;
+    display: block;
+    margin-left: 270px;
+}
